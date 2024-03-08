@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: pink;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.box {
+    color: white;
+    width: 150px;
+    height: 150px;
+    font-size: 40px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box.fizz {
+    background-color: green;
+}
+.box.buzz {
+    background-color: blue;
+}
+.box.fizzbuzz {
+    background-color: darkred;
+}
+.box.base-color {
+    background-color: black;
+}
